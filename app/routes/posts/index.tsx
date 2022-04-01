@@ -1,5 +1,5 @@
-import { getPosts } from "app/models/post.server";
 import { json, Link, LoaderFunction, useLoaderData } from "remix";
+import { getPosts } from "~/models/post.server";
 import { LoaderDataProps } from "./post.types";
 type LoaderData = {
   posts: Awaited<ReturnType<typeof getPosts>>;

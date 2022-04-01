@@ -1,5 +1,5 @@
-import { PostRequest } from "app/routes/posts/post.types";
-import { prisma } from "app/utils/db.server";
+import { PostRequest } from "~/routes/posts/post.types";
+import { prisma } from "~/utils/db.server";
 
 
 export function getPosts() {
